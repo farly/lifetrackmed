@@ -1,0 +1,86 @@
+.body {
+  padding : 0;
+  margin: 0;
+  background-color: gainsboro;
+}
+
+.container {
+  width: 800px;
+  padding-top: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.filter {
+  border: rgb(148, 142, 142) solid .5px;
+  width: 300px;
+  max-width: 400px;
+  background: #F7F7F7;
+  margin: auto;
+  height: 300px;
+  padding: 16px;
+}
+
+.filter input[type="text"],
+.filter input[type="number"],
+.filter input[type="range"],
+.filter select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.filter input[type="text"]:focus,
+.filter input[type="number"]:focus,
+.filter input[type="range"]:focus,
+.filter select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.filter input[type="submit"],
+.fitler input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.filter input[type="submit"]:hover,
+.filter input[type="button"]:hover{
+	background: #2EBC99;
+}
+
+.table-container {
+  padding-top: 50px;
+  margin: auto;
+}
+
+td, th{
+  border: 1px solid gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
