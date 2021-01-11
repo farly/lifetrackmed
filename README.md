@@ -13,7 +13,7 @@ docker run --name ltm.be -p 9090:90
 ```
 
 ## RUN APP
-execute `make run_dev` or if make is not intalled
+execute `make start_dev` or if make is not intalled
 ```
 docker start ltm.fe
 docker start ltm.be
